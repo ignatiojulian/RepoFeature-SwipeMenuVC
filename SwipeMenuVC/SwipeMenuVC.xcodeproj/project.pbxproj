@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		5EE84CF451E6D3A59C5F0D52 /* Pods_SwipeMenuVC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFE4625D48710872E16BB49 /* Pods_SwipeMenuVC.framework */; };
+		7589917B274E30D800C2F3DE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7589917A274E30D800C2F3DE /* FirstViewController.swift */; };
+		7589917D274E30E700C2F3DE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7589917C274E30E700C2F3DE /* SecondViewController.swift */; };
+		7589917F274E30F100C2F3DE /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7589917E274E30F100C2F3DE /* ThirdViewController.swift */; };
 		75972065274E0B1B00C25E79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75972064274E0B1B00C25E79 /* AppDelegate.swift */; };
 		75972067274E0B1B00C25E79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75972066274E0B1B00C25E79 /* SceneDelegate.swift */; };
 		75972069274E0B1B00C25E79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75972068274E0B1B00C25E79 /* ViewController.swift */; };
@@ -19,6 +22,9 @@
 /* Begin PBXFileReference section */
 		051E07C119025C1627E86C45 /* Pods-SwipeMenuVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeMenuVC.release.xcconfig"; path = "Target Support Files/Pods-SwipeMenuVC/Pods-SwipeMenuVC.release.xcconfig"; sourceTree = "<group>"; };
 		0EB3AB2BF4A4A316CB0ED4EC /* Pods-SwipeMenuVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeMenuVC.debug.xcconfig"; path = "Target Support Files/Pods-SwipeMenuVC/Pods-SwipeMenuVC.debug.xcconfig"; sourceTree = "<group>"; };
+		7589917A274E30D800C2F3DE /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		7589917C274E30E700C2F3DE /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		7589917E274E30F100C2F3DE /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		75972061274E0B1B00C25E79 /* SwipeMenuVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeMenuVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75972064274E0B1B00C25E79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75972066274E0B1B00C25E79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +72,9 @@
 				75972064274E0B1B00C25E79 /* AppDelegate.swift */,
 				75972066274E0B1B00C25E79 /* SceneDelegate.swift */,
 				75972068274E0B1B00C25E79 /* ViewController.swift */,
+				7589917A274E30D800C2F3DE /* FirstViewController.swift */,
+				7589917C274E30E700C2F3DE /* SecondViewController.swift */,
+				7589917E274E30F100C2F3DE /* ThirdViewController.swift */,
 				7597206A274E0B1B00C25E79 /* Main.storyboard */,
 				7597206D274E0B2100C25E79 /* Assets.xcassets */,
 				7597206F274E0B2100C25E79 /* LaunchScreen.storyboard */,
@@ -80,7 +89,6 @@
 				0EB3AB2BF4A4A316CB0ED4EC /* Pods-SwipeMenuVC.debug.xcconfig */,
 				051E07C119025C1627E86C45 /* Pods-SwipeMenuVC.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -210,6 +218,9 @@
 				75972069274E0B1B00C25E79 /* ViewController.swift in Sources */,
 				75972065274E0B1B00C25E79 /* AppDelegate.swift in Sources */,
 				75972067274E0B1B00C25E79 /* SceneDelegate.swift in Sources */,
+				7589917D274E30E700C2F3DE /* SecondViewController.swift in Sources */,
+				7589917F274E30F100C2F3DE /* ThirdViewController.swift in Sources */,
+				7589917B274E30D800C2F3DE /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

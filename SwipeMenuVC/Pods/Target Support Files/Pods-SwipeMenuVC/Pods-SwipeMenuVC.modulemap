@@ -1,0 +1,6 @@
+framework module Pods_SwipeMenuVC {
+  umbrella header "Pods-SwipeMenuVC-umbrella.h"
+
+  export *
+  module * { export * }
+}

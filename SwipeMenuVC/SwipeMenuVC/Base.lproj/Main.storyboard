@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="PdM-Md-omK">
             <objects>
-                <viewController id="fA2-Ug-lb6" customClass="ViewController" customModule="SwipeMenuBugDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="fA2-Ug-lb6" customClass="ViewController" customModule="SwipeMenuVC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="S5G-b6-V2f">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -26,7 +26,7 @@
         <!--First View Controller-->
         <scene sceneID="Wn1-u9-3lx">
             <objects>
-                <viewController storyboardIdentifier="FirstViewController" id="MEW-2h-khU" customClass="FirstViewController" customModule="SwipeMenuBugDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FirstViewController" id="MEW-2h-khU" customClass="FirstViewController" customModule="SwipeMenuVC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SwK-IQ-ugF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -58,7 +58,7 @@
         <!--Second View Controller-->
         <scene sceneID="iSa-pE-hFw">
             <objects>
-                <viewController storyboardIdentifier="SecondViewController" id="1qp-hg-ZpO" customClass="SecondViewController" customModule="SwipeMenuBugDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SecondViewController" id="1qp-hg-ZpO" customClass="SecondViewController" customModule="SwipeMenuVC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mxb-2b-SZG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -90,7 +90,7 @@
         <!--Third View Controller-->
         <scene sceneID="5ee-ir-mVI">
             <objects>
-                <viewController storyboardIdentifier="ThirdViewController" id="zCv-nb-aax" customClass="ThirdViewController" customModule="SwipeMenuBugDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ThirdViewController" id="zCv-nb-aax" customClass="ThirdViewController" customModule="SwipeMenuVC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FOQ-nt-0Wb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

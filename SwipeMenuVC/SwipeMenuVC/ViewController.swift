@@ -10,28 +10,28 @@ import SwipeMenuViewController
 
 class ViewController: SwipeMenuViewController  {
 
-    private var datas: [String] = ["First","Second", "Third"]
+    private var datas: [String] = ["All","For You"]
     
     var options = SwipeMenuViewOptions()
-    var dataCount: Int = 3
+//    var dataCount: Int = 2
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Notifications"
+        
         options.tabView.style = .segmented
-        self.options.tabView.addition = .circle
-        self.options.tabView.itemView.selectedTextColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1.0)
+        self.options.tabView.addition = .underline
         options.tabView.margin                          = 8.0
-//        options.tabView.underlineView.backgroundColor   = UIColor.white
-        options.tabView.backgroundColor                 = UIColor(red: 0.18, green: 0.18, blue: 0.18, alpha: 1.00)
-//        options.tabView.underlineView.height            = 3.0
+        options.tabView.additionView.underline.height   = 2.0
+        options.tabView.additionView.backgroundColor    = UIColor.red
+        options.tabView.backgroundColor                 = UIColor(ciColor: .clear)
         options.tabView.itemView.textColor              = UIColor(red: 0.60, green: 0.60, blue: 0.60, alpha: 1.00)
-        options.tabView.itemView.selectedTextColor      = UIColor(red: 1.00, green: 1.00, blue: 1.00, alpha: 1.00)
+        options.tabView.itemView.selectedTextColor      = UIColor.blue
         options.tabView.itemView.margin                 = 10.0
         options.contentScrollView.backgroundColor       = UIColor.lightGray
         options.tabView.isSafeAreaEnabled = true
-        options.tabView.height = 60
+        options.tabView.height = 50
         self.reload()
-        // Do any additional setup after loading the view.
     }
     
     override var prefersStatusBarHidden: Bool {
@@ -40,7 +40,6 @@ class ViewController: SwipeMenuViewController  {
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     @IBAction func saveAction(_ sender: UIButton) {
@@ -73,7 +72,7 @@ class ViewController: SwipeMenuViewController  {
     // MARK - SwipeMenuViewDataSource
     
     override func numberOfPages(in swipeMenuView: SwipeMenuView) -> Int {
-        return dataCount
+        return datas.count
     }
     
     override func swipeMenuView(_ swipeMenuView: SwipeMenuView, titleForPageAt index: Int) -> String {
@@ -101,7 +100,5 @@ class ViewController: SwipeMenuViewController  {
             return vc
         }
     }
-
-
 }
 

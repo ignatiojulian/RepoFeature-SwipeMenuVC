@@ -1,20 +1,16 @@
 PODS:
-  - SwiftGen (6.5.1)
   - SwipeMenuViewController (4.1.0)
 
 DEPENDENCIES:
-  - SwiftGen
   - SwipeMenuViewController
 
 SPEC REPOS:
   trunk:
-    - SwiftGen
     - SwipeMenuViewController
 
 SPEC CHECKSUMS:
-  SwiftGen: a6d22010845f08fe18fbdf3a07a8e380fd22e0ea
   SwipeMenuViewController: 94fac81cc192d9f08f218fe4c0c853569b735e1f
 
-PODFILE CHECKSUM: 02a6c026568e174b72f7bf28ebd6608e92b0b0d4
+PODFILE CHECKSUM: f9215d073455af3ae1e258f95b7031a39dc5ec91
 
 COCOAPODS: 1.11.2

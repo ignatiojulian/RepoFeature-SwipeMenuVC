@@ -7,6 +7,5 @@ target 'SwipeMenuVC' do
 
   # Pods for SwipeMenuVC
   pod 'SwipeMenuViewController'
-  pod 'SwiftGen'
 
 end
